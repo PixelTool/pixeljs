@@ -1,0 +1,1474 @@
+{
+  "name": "[root]",
+  "type": "[]",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "1f3ef49c-2335-4759-a69e-b0f1cf752f12",
+      "last": false,
+      "source": {
+        "selector": "#results > li.mod.result > div > h3 > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "411bb0ec-1e00-40d8-aefb-dd156e1a8f0e",
+      "last": false,
+      "source": {
+        "selector": "#results > li.mod.result > a > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "unnamed",
+      "type": "string",
+      "uuid": "3ef66d5a-2756-49cb-a7d0-3e9f58cfb498",
+      "last": true,
+      "source": {
+        "selector": "#results > li.mod.result > div > h3 > a",
+        "method": "[href]"
+      }
+    }
+  ],
+  "uuid": "696e1331-3fcc-406d-9f74-007fee830eb0",
+  "source": {
+    "selector": "#results > li.mod.result",
+    "method": "text"
+  }
+}
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "e2cb2670-d919-42c9-841d-760e39352db2",
+      "last": false,
+      "source": {
+        "selector": "body > div.main.clearfix > div.comp-detail-left > div.comp-gen-info.cf > ul.comp-gen-words.cf > li:nth-child(2)",
+        "filter": "substr|\"5\"",
+        "method": "text"
+      }
+    },
+    {
+      "name": "link",
+      "type": "string",
+      "uuid": "3fd032b4-1623-4946-bf39-f15ae218e40c",
+      "last": false,
+      "source": {
+        "selector": "body > div.main.clearfix > div.comp-detail-left > div.comp-gen-info.cf > ul.comp-gen-words.cf > li:nth-child(6) > span",
+        "method": "text"
+      }
+    },
+    {
+      "name": "industry",
+      "type": "string",
+      "uuid": "2175fdfa-92a8-410a-b485-fb722b90ac0c",
+      "last": false,
+      "source": {
+        "selector": "body > div.main.clearfix > div.comp-detail-left > div.comp-gen-info.cf > ul.comp-gen-words.cf > li:nth-child(3) > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "size",
+      "type": "string",
+      "uuid": "339d8a99-3e7b-48b8-9bc5-2d40984d2c14",
+      "last": false,
+      "source": {
+        "selector": "body > div.main.clearfix > div.comp-detail-left > div.comp-gen-info.cf > ul.comp-gen-words.cf > li:nth-child(5)",
+        "filter": "substr|\"5\"",
+        "method": "text"
+      }
+    },
+    {
+      "name": "location",
+      "type": "string",
+      "uuid": "43e1c254-b66e-4581-b847-77e5ec28a046",
+      "last": true,
+      "source": {
+        "selector": "body > div.main.clearfix > div.comp-detail-left > div.comp-gen-info.cf > ul.comp-gen-words.cf > li.comp-addL > span",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "aa4995d5-8606-468d-8436-767ed29fc2c1"
+}
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "27690605-098a-4ad9-82e9-6d04afffb8f0",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c.index-focus > div.people-show > div > dl > dt.txt > h1",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "37d247c0-cab8-4b4a-afe1-4073c44e0f1a",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c.index-focus > div.people-show > div > dl > dt.img > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "uuid": "8f0d276c-162c-4d29-ac7c-97ef6afb6a48",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c.index-focus > div.people-show > div > dl > dt.txt > p",
+        "method": "text"
+      }
+    },
+    {
+      "name": "summary",
+      "type": "string",
+      "uuid": "cd04765b-e8d5-40a4-9d3e-e9954f91684d",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c.index-focus > div.people-show > div > div > p",
+        "method": "text"
+      }
+    },
+    {
+      "name": "company_name",
+      "type": "string",
+      "uuid": "dd2ceedb-9d08-4fa9-b4f1-f331af671017",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c.index-focus > div.box.box-border-top > table > tbody > tr:nth-child(2) > td.td1",
+        "method": "text"
+      }
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "uuid": "1f7f9e56-34ce-4c72-891b-9c95039b7510",
+      "last": true,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c.index-focus > div.box.box-border-top > table > tbody > tr:nth-child(2) > td.td2",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "78307f4d-d9ea-492f-987e-30c192d6902f"
+}
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "c4563f12-76de-453c-97cf-ebfa2c788523",
+      "last": false,
+      "source": {
+        "selector": "body > header > div > div > div.col-md-4 > div > div > h4",
+        "method": "text"
+      }
+    },
+    {
+      "name": "social_network",
+      "type": "[]",
+      "uuid": "027f2ee6-9c7b-4985-a1ba-3116c361cb13",
+      "last": false,
+      "def": [
+        {
+          "name": "site",
+          "type": "string",
+          "uuid": "3a560c1e-fb53-4445-97d2-5cca4e7f9a2e",
+          "last": false,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li > a",
+            "method": "[class]",
+          }
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "uuid": "c98dd859-417f-42b7-a411-534c0dc42fb0",
+          "last": true,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li > a",
+            "method": "[href]"
+          }
+        }
+      ],
+      "source": {
+        "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li",
+        "method": "text"
+      }
+    },
+    {
+      "name": "profile",
+      "type": "string",
+      "uuid": "38f4f845-51c7-41e3-bcd9-6db1cb985249",
+      "last": true,
+      "source": {
+        "selector": "body > header > div > div > div.col-md-5",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "c54ea1b3-c482-4055-930e-eb894f0e919c"
+}
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "c4563f12-76de-453c-97cf-ebfa2c788523",
+      "last": false,
+      "source": {
+        "selector": "body > header > div > div > div.col-md-4 > div > div > h4",
+        "method": "text"
+      }
+    },
+    {
+      "name": "social_network",
+      "type": "[]",
+      "uuid": "027f2ee6-9c7b-4985-a1ba-3116c361cb13",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "3a560c1e-fb53-4445-97d2-5cca4e7f9a2e",
+          "last": false,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li > a",
+            "method": "[value]"
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "c98dd859-417f-42b7-a411-534c0dc42fb0",
+          "last": true,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li > a",
+            "method": "[href]"
+          }
+        }
+      ],
+      "source": {
+        "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li",
+        "method": "text"
+      }
+    },
+    {
+      "name": "profile",
+      "type": "[]",
+      "uuid": "38f4f845-51c7-41e3-bcd9-6db1cb985249",
+      "last": true,
+      "source": {
+        "selector": "body > header > div > div > div.col-md-5 > ul > li",
+        "method": "text"
+      },
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "774f03fa-949b-4052-873c-2883221bd561",
+          "last": false,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-5 > ul > li",
+            "method": "text"
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "17639b6b-bda3-44b9-aab0-52ecd757452a",
+          "last": true,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-5 > ul > li",
+            "method": "text"
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "c54ea1b3-c482-4055-930e-eb894f0e919c"
+}
+
+//http://segmentfault.com/u/jiyinyiyong#
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "c4563f12-76de-453c-97cf-ebfa2c788523",
+      "last": false,
+      "source": {
+        "selector": "body > header > div > div > div.col-md-4 > div > div > h4",
+        "method": "text"
+      }
+    },
+    {
+      "name": "social_network",
+      "type": "[]",
+      "uuid": "027f2ee6-9c7b-4985-a1ba-3116c361cb13",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "3a560c1e-fb53-4445-97d2-5cca4e7f9a2e",
+          "last": false,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li > a",
+            "method": "[value]",
+            "filter": "match|\"-\\[^-\\]+$\"|replace|\"-\""
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "c98dd859-417f-42b7-a411-534c0dc42fb0",
+          "last": true,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li > a",
+            "method": "[href]"
+          }
+        }
+      ],
+      "source": {
+        "selector": "body > header > div > div > div.col-md-4 > div > div > ul > li",
+        "method": "text"
+      }
+    },
+    {
+      "name": "profile",
+      "type": "[]",
+      "uuid": "38f4f845-51c7-41e3-bcd9-6db1cb985249",
+      "last": true,
+      "source": {
+        "selector": "body > header > div > div > div.col-md-5 > ul > li",
+        "method": "text"
+      },
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "774f03fa-949b-4052-873c-2883221bd561",
+          "last": false,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-5 > ul > li",
+            "method": "text",
+            "filter": "match|\"(\\[^：\\]+)：\"|replace|\"：\"|\"\""
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "17639b6b-bda3-44b9-aab0-52ecd757452a",
+          "last": true,
+          "source": {
+            "selector": "body > header > div > div > div.col-md-5 > ul > li",
+            "method": "text",
+            "filter": "match|\"：(\\[^：\\]+)\"|replace|\"：\"|\"\""
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "c54ea1b3-c482-4055-930e-eb894f0e919c"
+}
+
+
+
+
+
+
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "a081038e-ac92-4114-ab31-606ce0e1c5d6",
+      "last": false,
+      "source": {
+        "selector": "body > div.main.container.not-signed-in > section.user-profile > article.text-center > div.inner > h2 > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "uuid": "e4c07644-eedc-4ae9-adea-a1c355f37f55",
+      "last": false,
+      "source": {
+        "selector": "body > div.main.container.not-signed-in > section.user-profile > article:nth-child(2) > div:nth-child(2) > p",
+        "method": "text"
+      }
+    },
+    {
+      "name": "sn",
+      "type": "[]",
+      "uuid": "1a2264ac-ee25-4d82-9b81-236f3888f076",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "1b274680-266d-4774-a53a-2c4f3f1bd82c",
+          "last": false,
+          "source": {
+            "selector": "body > div.main.container.not-signed-in > section.user-profile > article.text-center > div.social-links > a > i",
+            "method": "[class]",
+            "filter": "match|\'-\\\\[^-\\\\]+$\'|replace|\'-\'"
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "ecbd986a-2ab5-4669-9c59-a7e6eeccd2e2",
+          "last": true,
+          "source": {
+            "selector": "body > div.main.container.not-signed-in > section.user-profile > article.text-center > div.social-links > a",
+            "method": "text"
+          }
+        }
+      ]
+    },
+    {
+      "name": "links",
+      "type": "[]",
+      "uuid": "38a8b3d9-cfcb-429d-8b66-80433bcc5e2c",
+      "last": true,
+      "def": [
+        {
+          "name": "title",
+          "type": "string",
+          "uuid": "0620b021-10f6-47d8-a0fe-46c66dfa8291",
+          "last": false,
+          "source": {
+            "selector": "body > div.main.container.not-signed-in > section.user-profile > article:nth-child(2) > div:nth-child(5) > div > p:nth-child(1) > small > span > a",
+            "method": "text"
+          }
+        },
+        {
+          "name": "link",
+          "type": "string",
+          "uuid": "57966848-f326-48b4-bafe-fb0a0216928b",
+          "last": true,
+          "source": {
+            "selector": "body > div.main.container.not-signed-in > section.user-profile > article:nth-child(2) > div:nth-child(5) > div > p:nth-child(1) > small > span > a",
+            "method": "[href]"
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "5a40ee36-3810-4def-854b-725973b8ecdc"
+}
+
+
+
+
+
+{
+  "name": "[root]",
+  "type": "[]",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "a4b03cab-bd2e-4d0b-aadf-7281974232ce",
+      "last": false,
+      "source": {
+        "selector": "body > div.zg-wrap.zu-main.clearfix > div.zu-main-content > div > ul > li.item.item-card.user-card.clearfix > div.left.content > div > div > a ",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "d2bd1869-b220-4af1-96f4-356b778f16d1",
+      "last": false,
+      "source": {
+        "selector": "body > div.zg-wrap.zu-main.clearfix > div.zu-main-content > div > ul > li.item.item-card.user-card.clearfix > div.left.content > a > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "url",
+      "type": "string",
+      "uuid": "7f51f2f8-052e-415d-86de-ebb76b8ab362",
+      "last": false,
+      "source": {
+        "selector": "body > div.zg-wrap.zu-main.clearfix > div.zu-main-content > div > ul > li.item.item-card.user-card.clearfix > div.left.content > div > div > a ",
+        "method": "[href]"
+      }
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "uuid": "2173838d-9e16-41bb-8067-7c97829ad932",
+      "last": true,
+      "source": {
+        "selector": "body > div.zg-wrap.zu-main.clearfix > div.zu-main-content > div > ul > li.item.item-card.user-card.clearfix > div.left.content > div > div.line.bio.ellipsis",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "c1630288-aa08-4a37-8066-d78ee3dac839",
+  "source": {
+    "selector": "body > div.zg-wrap.zu-main.clearfix > div.zu-main-content > div > ul > li.item.item-card.user-card.clearfix",
+    "method": "text"
+  }
+}
+
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "e04c3cc5-bc05-4f3d-ba45-158f4622e849",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.top > div.title-section.ellipsis > span.name",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "e7950d59-147f-4be5-83b3-7925aab23f6f",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.body.clearfix > div.zm-profile-header-avatar-container > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "uuid": "214d6111-5297-491c-a45c-262220601c18",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.top > div.title-section.ellipsis > span.bio",
+        "method": "text"
+      }
+    },
+    {
+      "name": "company",
+      "type": "string",
+      "uuid": "1aa16d0d-e3e9-4899-bbf8-41c5e2d226b2",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.body.clearfix > div.zm-profile-header-info > div > div.items > div.item.editable-group > span.info-wrap > span.employment.item",
+        "method": "text"
+      }
+    },
+    {
+      "name": "city",
+      "type": "string",
+      "uuid": "252b9826-23f9-4356-b1f7-48d422b4affe",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.body.clearfix > div.zm-profile-header-info > div > div.items > div.item.editable-group > span.info-wrap > span.location.item > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "school",
+      "type": "string",
+      "uuid": "ab8d9883-c0b0-4161-aace-e2816ec7e6b5",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.body.clearfix > div.zm-profile-header-info > div > div.items > div.item.editable-group > span.info-wrap > span.education.item > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "industry",
+      "type": "string",
+      "uuid": "99a923d0-582a-451a-843d-492c47ad8b04",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.body.clearfix > div.zm-profile-header-info > div > div.items > div.item.editable-group > span.info-wrap > span.business.item > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "weibo",
+      "type": "string",
+      "uuid": "853a60d8-11d8-4458-bb4f-df90d5773952",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.top > div.weibo-wrap > a",
+        "method": "[href]"
+      }
+    },
+    {
+      "name": "profession",
+      "type": "string",
+      "uuid": "3fdba611-15d8-4a32-8aec-27413e0486b6",
+      "last": false,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.body.clearfix > div.zm-profile-header-info > div > div.items > div.item.editable-group > span.info-wrap > span.education-extra.item",
+        "method": "text"
+      }
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "uuid": "282d4625-cb3c-4754-bc38-031467279482",
+      "last": true,
+      "source": {
+        "selector": "#zh-pm-page-wrap > div.zm-profile-header > div.zm-profile-header-main > div.body.clearfix > div.zm-profile-header-info > div > div.zm-profile-header-description.editable-group",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "c8bf579e-b789-4018-bed8-b0821ddf7c4e"
+}
+
+
+
+
+
+
+{
+  "name": "[root]",
+  "type": "[]",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "adfb6127-daee-47b0-a225-d7ceeffbf2da",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div > div.person-list.clearfix.childen-hover > div.media > div > h4 > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "923afbbb-6a65-4e94-8459-bbdc59303823",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div > div.person-list.clearfix.childen-hover > div.media > a > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "url",
+      "type": "string",
+      "uuid": "42dcfba4-bfeb-43cb-969d-4da6828720bb",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div > div.person-list.clearfix.childen-hover > div.media > div > h4 > a",
+        "method": "[href]"
+      }
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "uuid": "c08d00d6-8077-4039-b653-e0efcfde1162",
+      "last": true,
+      "source": {
+        "selector": "#page-content > article > div > div.person-list.clearfix.childen-hover > div.media > div > p",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "06737184-c790-4b14-8192-4a9394f86e8b",
+  "source": {
+    "selector": "#page-content > article > div > div.person-list.clearfix.childen-hover > div.media",
+    "method": "text"
+  }
+}
+
+
+
+{
+  "name": "[root]",
+  "type": "[]",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "1ee9a414-f7fa-43c4-8f62-b7157984bb94",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div > div.company-list.clearfix.childen-hover > div.company-list-item > div > h4 > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "5e9d5310-48b6-45de-8d9c-836668d2861b",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div > div.company-list.clearfix.childen-hover > div.company-list-item > a > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "url",
+      "type": "string",
+      "uuid": "9d27de03-c2ac-4864-aa11-802c6e5a853a",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div > div.company-list.clearfix.childen-hover > div.company-list-item > div > h4 > a",
+        "method": "[href]"
+      }
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "uuid": "ba593868-78fb-443d-95d6-646c377bc1fb",
+      "last": true,
+      "source": {
+        "selector": "#page-content > article > div > div.company-list.clearfix.childen-hover > div.company-list-item > div > p > a",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "3d00c8c6-bfd6-4e20-b984-14d3c4de7f33",
+  "source": {
+    "selector": "#page-content > article > div > div.company-list.clearfix.childen-hover > div.company-list-item",
+    "method": "text"
+  }
+}
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "6b9d9a75-c211-40e1-9fc1-bad0fbc9e8c9",
+      "last": false,
+      "source": {
+        "selector": "body > div.wrapper > div:nth-child(4) > div > div > p > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "weibo",
+      "type": "string",
+      "uuid": "07751c6b-cf61-44e5-abcf-0f3b8fae9bb9",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li:nth-child(2) > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "summary",
+      "type": "string",
+      "uuid": "f07dd932-e809-4e62-b3d7-819f81f979ea",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li:nth-child(3) > em",
+        "method": "text"
+      }
+    },
+    {
+      "name": "city",
+      "type": "string",
+      "uuid": "4d5fdf01-54f3-4408-b643-9c8c697a5215",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div:nth-child(2) > ul > li:nth-child(1) > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "fb6aebbb-0056-4706-9982-15ee04b7e70c",
+      "last": false
+    },
+    {
+      "name": "work_experience",
+      "type": "string",
+      "uuid": "2b9ac2f6-e0d2-4816-97d4-938b23b37731",
+      "last": false,
+      "def": [],
+      "source": {
+        "selector": "#page-content > article > div:nth-child(2) > ul > li:nth-child(2)",
+        "method": "text"
+      }
+    },
+    {
+      "name": "education_experience",
+      "type": "string",
+      "uuid": "6ba188f1-f0c9-4b06-be2e-2ddd9863ff58",
+      "last": false,
+      "def": [],
+      "source": {
+        "selector": "#page-content > article > div:nth-child(2) > ul > li:nth-child(3)",
+        "method": "text"
+      }
+    },
+    {
+      "name": "investment",
+      "type": "[]",
+      "uuid": "92736b34-10bf-46e0-819e-1fc5f018126b",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "8ec63744-e7bb-4360-8071-6e5fbf11e72f",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > div > h4 > a",
+            "method": "text"
+          }
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "uuid": "82f783d9-54ae-4755-924c-f97eb9b581bc",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > div > h4 > a",
+            "method": "[href]"
+          }
+        },
+        {
+          "name": "avatar",
+          "type": "string",
+          "uuid": "cac35c68-5c54-4433-aec8-ae89742ae7ca",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > a > img",
+            "method": "[src]"
+          }
+        },
+        {
+          "name": "headline",
+          "type": "string",
+          "uuid": "801a227f-73f6-4e24-9dd4-3edeeadaa97c",
+          "last": true,
+          "source": {
+            "selector": "#company-similar > div > div > p",
+            "method": "text"
+          }
+        }
+      ],
+      "source": {"selector": "#company-similar > div", "method": "text"}
+    },
+    {
+      "name": "investfirm",
+      "type": "string",
+      "uuid": "b25fe9bc-c29e-4409-8d73-b12b630e892e",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li:nth-child(1) > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "uuid": "d8f5a20a-eab0-4802-a8ba-ddadb4729623",
+      "last": true,
+      "source": {
+        "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li:nth-child(1)",
+        "method": "text",
+        "filter": "replace|'职位:'|''"
+      }
+    }
+  ],
+  "uuid": "d6e2b5bb-f0d9-475b-a5e3-c60a5d8f3ede"
+}
+
+
+
+
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "8474dbad-6849-42d7-a2dd-508a9a16b789",
+      "last": false,
+      "source": {
+        "selector": "body > div.wrapper > div:nth-child(4) > div > div > p > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "0c62af5c-ac03-45d3-9b78-858ae5c3381d",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div.normal-box.person-info > div > a > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "profile",
+      "type": "[]",
+      "uuid": "196d2c04-c23d-42da-9db2-2141bb806a3e",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "34ff0974-5967-4f75-b703-be881c96eed5",
+          "last": false,
+          "source": {
+            "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"0\""
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "7053e225-9d8d-474d-b694-8e14489477be",
+          "last": true,
+          "source": {
+            "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"1\""
+          }
+        }
+      ]
+    },
+    {
+      "name": "detail",
+      "type": "[]",
+      "uuid": "2c6177df-aae3-4da0-8a37-902c07e8fab1",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "47a5c966-c40d-4454-a042-7f20645be4c7",
+          "last": false,
+          "source": {
+            "selector": "#page-content > article > div:nth-child(2) > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"0\""
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "99e1e844-4ecb-4e42-80c2-b94def1ed60d",
+          "last": true,
+          "source": {
+            "selector": "#page-content > article > div:nth-child(2) > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"1\""
+          }
+        }
+      ]
+    },
+    {
+      "name": "company",
+      "type": "[]",
+      "uuid": "333aaee1-ce11-4abd-934e-02a016da0e81",
+      "last": true,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "9b8d568b-0656-4266-97f8-b15935fc530c",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > div > h4 > a",
+            "method": "text"
+          }
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "uuid": "d3cd5716-d0a9-4666-ab1a-3953ae65c474",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > div > h4",
+            "method": "text"
+          }
+        },
+        {
+          "name": "summary",
+          "type": "string",
+          "uuid": "45a31ddb-a800-4534-8221-4e9231aafb3f",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > div > p",
+            "method": "text"
+          }
+        },
+        {
+          "name": "avatar",
+          "type": "string",
+          "uuid": "b7701a48-108b-4628-a549-eabc9f1ec333",
+          "last": true,
+          "source": {
+            "selector": "#company-similar > div > a > img",
+            "method": "[src]"
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "457aa624-8e4b-4d30-b722-2b102e23e7c1"
+}
+
+
+
+
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "91552b1f-2a22-4033-bfd3-335e5c42227a",
+      "last": false,
+      "source": {
+        "selector": "body > div.wrapper > div:nth-child(4) > div > div > p > a",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "0a6f86e0-8950-4d3f-9456-1bb1620afb8c",
+      "last": false,
+      "source": {
+        "selector": "#page-content > article > div.normal-box.person-info > div > a > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "profile",
+      "type": "[]",
+      "uuid": "2d939366-50b3-436b-95de-a2f0839a4ecf",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "01e0ccb6-ae9c-4968-baa1-8895ac4d488d",
+          "last": false,
+          "source": {
+            "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"0\""
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "c7f6138e-6f53-4865-bc33-86c02d275f79",
+          "last": true,
+          "source": {
+            "selector": "#page-content > article > div.normal-box.person-info > div > div > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"1\""
+          }
+        }
+      ]
+    },
+    {
+      "name": "detail",
+      "type": "[]",
+      "uuid": "6e8db7a9-4739-4a2f-a7bd-bd250ef453f2",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "a47ec955-5d47-42f3-95dc-f5e05e7155ea",
+          "last": false,
+          "source": {
+            "selector": "#page-content > article > div:nth-child(2) > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"0\""
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "f2a93fcb-a822-43bb-8616-74cec3ca65a1",
+          "last": true,
+          "source": {
+            "selector": "#page-content > article > div:nth-child(2) > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"1\""
+          }
+        }
+      ]
+    },
+    {
+      "name": "investment",
+      "type": "[]",
+      "uuid": "dd640bdc-5138-44d1-9fe2-818d7b4e094d",
+      "last": true,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "fcdb692c-4f3a-460b-bfd6-ac0afb8a18a1",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > div > h4 > a",
+            "method": "text"
+          }
+        },
+        {
+          "name": "avatar",
+          "type": "string",
+          "uuid": "d3e63230-ebce-438d-9890-cc161143b1ba",
+          "last": false,
+          "source": {
+            "selector": "#company-similar > div > a > img",
+            "method": "[src]"
+          }
+        },
+        {
+          "name": "summary",
+          "type": "string",
+          "uuid": "8a6353a4-6f99-4681-ad96-c9418273dd5d",
+          "last": true,
+          "source": {
+            "selector": "#company-similar > div > div > p:nth-child(2)",
+            "method": "text"
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "5bef428d-93d4-4edf-9067-c070bad70530"
+}
+
+
+
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "b2290236-08c0-4def-8d5a-715468fa5270",
+      "last": false,
+      "source": {"selector": "#com_id_value", "method": "text"}
+    },
+    {
+      "name": "team",
+      "type": "[]",
+      "uuid": "ce06d34a-b8dd-4005-8e74-76a1101118a6",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "2c41bb1a-ac84-4ccc-8f4f-82fc3e42fe43",
+          "last": false,
+          "source": {
+            "selector": "#company-member-list-tbl > tbody > tr > td:nth-child(2)",
+            "method": "text"
+          }
+        },
+        {
+          "name": "weibo",
+          "type": "string",
+          "uuid": "2b389cf0-015f-4c1d-98a7-fa706f3e9aef",
+          "last": false,
+          "source": {
+            "selector": "#company-member-list-tbl > tbody > tr > td:nth-child(4) > a",
+            "method": "[href]"
+          }
+        },
+        {
+          "name": "avatar",
+          "type": "string",
+          "uuid": "c969402f-a996-4b0f-bd16-faeec212a90f",
+          "last": false,
+          "source": {
+            "selector": "#company-member-list-tbl > tbody > tr > td:nth-child(1) > a > img",
+            "method": "[src]"
+          }
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "uuid": "8ade5d32-2ef1-4516-a649-817de3028e39",
+          "last": true,
+          "source": {
+            "selector": "#company-member-list-tbl > tbody > tr > td:nth-child(3)",
+            "method": "text"
+          }
+        }
+      ],
+      "source": {
+        "selector": "#company-member-list-tbl > tbody > tr",
+        "method": "text"
+      }
+    },
+    {
+      "name": "info",
+      "type": "[]",
+      "uuid": "e87bfc10-196e-4e60-a67e-f0beb15bcac5",
+      "last": true,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "c272536d-4b65-44e2-bffc-abba3a39ac35",
+          "last": false,
+          "source": {
+            "selector": "#page-content > article > div:nth-child(2) > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"0\""
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "39a7434b-a9c6-4eb7-a5e9-b8c7bd148f53",
+          "last": true,
+          "source": {
+            "selector": "#page-content > article > div:nth-child(2) > ul > li",
+            "method": "text",
+            "filter": "split|\": \"|\"2\"|index|\"1\""
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "71caff01-bfda-41d6-899a-3aa496ede6a7"
+}
+
+{
+      "name": "avatar",
+      "type": "string",
+      "uuid": "dcbdcc99-c328-4a06-95d3-dc1e9b7a6f6c",
+      "last": true,
+      "source": {
+        "selector": "body > div.wrapper > div:nth-child(5) > div > div.archive-logo.pull-left > img",
+        "method": "[src]"
+      }
+    }
+
+{"name": "url", "type": "string", "uuid": "f04b6a8f-0256-40cf-a891-341e6c6e776b", "last": true, "source": {"selector": "#company-similar > div > div > h4 > a", "method": "[href]"} }
+
+
+{"name": "url", "type": "string", "uuid": "1e2aa7c3-828c-47cc-94d9-75367698989c", "last": true, "source": {"selector": "#company-similar > div > div > h4 > a", "method": "text"} }
+
+
+
+
+
+{"name": "[root]", "type": "{}", "def": [{"name": "name", "type": "string", "uuid": "f9a9b5d5-7ed7-4f97-8fa2-9d7636963e0f", "last": false, "source": {"selector": "#site-container > div > div > div.column.one-fourth.vcard > h1 > span.vcard-fullname", "method": "text"} }, {"name": "avatar", "type": "string", "uuid": "d95746a1-bd6c-4574-931b-04002208b539", "last": false, "source": {"selector": "#site-container > div > div > div.column.one-fourth.vcard > a > img", "method": "[src]"} }, {"name": "username", "type": "string", "uuid": "3885c749-8e28-422d-a4cd-6860e4942ce9", "last": false, "source": {"selector": "#site-container > div > div > div.column.one-fourth.vcard > h1 > span.vcard-username", "method": "text"} }, {"name": "detail", "type": "[]", "uuid": "60c56d53-5d48-4ce6-bc6d-3b3faed0e68c", "last": true, "def": [{"name": "name", "type": "string", "uuid": "20b53980-d7bf-41d5-9b05-348b8bce0343", "last": false, "source": {"selector": "#site-container > div > div > div.column.one-fourth.vcard > ul > li > span", "method": "[class]", "filter": "match|\'-\\\\[^-\\\\]+$\'|replace|\'-\'"} }, {"name": "value", "type": "string", "uuid": "08ea96c3-caf1-4320-9e4f-5969732a4aa3", "last": true, "source": {"selector": "#site-container > div > div > div.column.one-fourth.vcard > ul > li", "method": "text"} } ] } ], "uuid": "52d05c1e-1c92-4c4e-bf22-e212031dcefe"}
+
+
+
+{"name": "[root]", "type": "[]", "def": [{"name": "name", "type": "string", "uuid": "4a820e59-c490-4d4c-a3e9-b688c4ef2d97", "last": false, "source": {"selector": "body > div.section.clearfix.pt10 > div.con-left > div:nth-child(3) > ul > li > a", "method": "text"} }, {"name": "location", "type": "string", "uuid": "531bf268-4c6c-436d-963a-09649da40390", "last": false, "source": {"selector": "body > div.section.clearfix.pt10 > div.con-left > div:nth-child(3) > ul > li > span:nth-child(2) > a", "method": "text"} }, {"name": "url", "type": "string", "uuid": "71f5cfce-3498-409e-8837-c5bae4b6454a", "last": true, "source": {"selector": "body > div.section.clearfix.pt10 > div.con-left > div:nth-child(3) > ul > li > a", "method": "[href]"} } ], "uuid": "b3a795fc-79d4-4c8b-ba94-6551a5e3d3bd"}
+
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "0d030a22-f912-4770-9ad9-9f7f1d053e6f",
+      "last": false,
+      "source": {
+        "selector": "body > div.section.clearfix.pt10 > div.con-left > div.qylogo.mt20 > h1",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "c9e3c0e3-5380-4a7b-89d2-d43f94b2f686",
+      "last": false,
+      "source": {
+        "selector": "body > div.section.clearfix.pt10 > div.con-left > div.qylogo.mt20 > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "summary",
+      "type": "string",
+      "uuid": "8b02eb3d-7bc5-42f3-a230-24a8189c905a",
+      "last": false,
+      "source": {
+        "selector": "body > div.section.clearfix.pt10 > div.con-left > div.qydes > p:nth-child(3)",
+        "method": "text"
+      }
+    },
+    {
+      "name": "detail",
+      "type": "[]",
+      "uuid": "6ba12278-f0bc-4603-bed9-a148427f263c",
+      "last": true,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "c2cc4f50-5b63-4e2c-9463-3ca8006a05be",
+          "last": false,
+          "source": {
+            "selector": "body > div.section.clearfix.pt10 > div.con-left > div.qyinfo.mt20 > ul > li",
+            "method": "text",
+            "filter": "split|\': \'|\'2\'|index|\'0\'"
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "50b26e32-9b5e-4bf3-a962-99b52f88be20",
+          "last": true,
+          "source": {
+            "selector": "body > div.section.clearfix.pt10 > div.con-left > div.qyinfo.mt20 > ul > li",
+            "method": "text",
+            "filter": "split|\': \'|\'2\'|index|\'1\'"
+          }
+        }
+      ]
+    }
+  ],
+  "uuid": "02e62ebd-dfca-4206-b627-28f597e71449"
+}
+
+
+{"name": "[root]", "type": "[]", "def": [{"name": "name", "type": "string", "uuid": "438f69e2-a6a9-4733-a645-8c7e096b4cb6", "last": false, "source": {"selector": "#search-list-enterprise > li > a", "method": "text"} }, {"name": "url", "type": "string", "uuid": "1f1e783f-1807-4747-9679-18ecc65c0a16", "last": true, "source": {"selector": "#search-list-enterprise > li > a", "method": "[href]"} } ], "uuid": "ed8eb14c-380d-467c-983c-ed6ccd610fbe"}
+
+
+
+
+{"name": "[root]", "type": "{}", "def": [{"name": "name", "type": "string", "uuid": "5b2fed93-39de-4b98-9750-6c7fca463c72", "last": false, "source": {"selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > h1", "method": "text"} }, {"name": "avatar", "type": "string", "uuid": "08d6d6a0-3671-41bf-a247-eded8fdb7c3e", "last": false, "source": {"selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div.box-caption > div > img", "method": "[src]"} }, {"name": "summary", "type": "string", "uuid": "33a6bd02-c556-47ec-8ec4-02bf30afe5df", "last": false, "source": {"selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div:nth-child(5)", "method": "text"} }, {"name": "info", "type": "[]", "uuid": "9049f206-e38e-4565-9a74-ef65c4c3a442", "last": false, "def": [{"name": "name", "type": "string", "uuid": "6c10ee4f-1596-478c-a067-dfc889ef7f70", "last": false, "source": {"selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div.box-caption > ul > li", "method": "text", "filter": "split|\': \'|\'2\'|index|\'0\'"} }, {"name": "value", "type": "string", "uuid": "c989d547-901a-493a-8a32-c149d6830487", "last": true, "source": {"selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div.box-caption > ul > li", "method": "text", "filter": "split|\': \'|\'2\'|index|\'1\|placeholder|\'default\'"} } ] }, {"name": "contact_info", "type": "string", "uuid": "2acd8396-a834-4f90-a48c-bac7f80cb5d5", "last": true, "def": [], "source": {"selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div:nth-child(4) > p", "method": "text"} } ], "uuid": "52dfa90c-8b23-4bcc-bd41-f5b6d27494d3"}
+
+
+
+
+{
+  "name": "[root]",
+  "type": "{}",
+  "def": [
+    {
+      "name": "name",
+      "type": "string",
+      "uuid": "6bc521ec-e866-43b4-8524-20d39a044aa9",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > h1",
+        "method": "text"
+      }
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "uuid": "c497e133-fc81-41ff-b865-33820b9c232a",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div.box-caption > div > img",
+        "method": "[src]"
+      }
+    },
+    {
+      "name": "detail",
+      "type": "[]",
+      "uuid": "086adcd0-4e55-4ff2-8e18-c7bc9d3c1eca",
+      "last": false,
+      "def": [
+        {
+          "name": "name",
+          "type": "string",
+          "uuid": "9c195b42-c75f-4e96-9147-c5fb00ecff35",
+          "last": false,
+          "source": {
+            "selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div.box-caption > ul > li",
+            "method": "text",
+            "filter": "split|\'：\'|\'2\'|index|\'0\'"
+          }
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "uuid": "16f4d632-2602-4f6a-87cb-ee8c5551a6bf",
+          "last": true,
+          "source": {
+            "selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div.box-caption > ul > li",
+            "method": "text",
+            "filter": "split|\'：\'|\'2\'|index|\'1\'"
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact_info",
+      "type": "string",
+      "uuid": "633ad340-ccc4-45c4-9b98-7b459636d9b2",
+      "last": false,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div:nth-child(4) > p",
+        "method": "text"
+      }
+    },
+    {
+      "name": "summary",
+      "type": "string",
+      "uuid": "889e19e4-a9b3-470d-be19-e39147d43ec5",
+      "last": true,
+      "source": {
+        "selector": "body > div.content > div > div.box-fix-c > div.news-show.company-show > div:nth-child(5)",
+        "method": "text"
+      }
+    }
+  ],
+  "uuid": "e1b95fed-ebd9-4017-bdfa-ae25f26d2ecb"
+}
